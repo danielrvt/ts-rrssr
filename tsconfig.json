@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "removeComments": true,
+        "jsx": "react",
+        "typeRoots": [
+            "node_modules/@types"
+        ],
+    },
+    "awesomeTypescriptLoaderOptions": {        
+        
+    }
+}
