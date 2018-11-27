@@ -29,7 +29,7 @@ app.get('*', (req, res, next) => {
         </head>
         <body>
             <div id="root">${content}</div>
-            <script type="client_bundle.js"></script>
+            <script src="client_bundle.js"></script>
         </body>
         </html>
     `;

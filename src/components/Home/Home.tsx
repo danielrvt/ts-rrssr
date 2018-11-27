@@ -3,7 +3,7 @@ import * as React from "react";
 export default class Home extends React.Component<{}, {}> {
 
     clickHello = (e: any) => {
-        console.log("HELLO HYDRATED", e);
+        console.log("HELLO, HYDRATED. Here is the event, WOW!: ", e);
     }
 
     render() {
@@ -14,7 +14,7 @@ export default class Home extends React.Component<{}, {}> {
                     A optio odio voluptatem fuga assumenda possimus praesentium 
                     adipisci beatae aspernatur corporis reiciendis facilis 
                     eum illo officiis, sed ab incidunt in perspiciatis?</p>
-                <button onClick={e => this.clickHello(e)}>Hello</button>
+                <button onClick={e => this.clickHello(e)}>Click Me To Test Hydration</button>
             </div>
         );        
     }
