@@ -4,7 +4,7 @@ const { CheckerPlugin } = require('awesome-typescript-loader');
 
 module.exports = {
     target: 'node',
-    entry: './server.tsx',
+    entry: path.resolve(__dirname, 'server.tsx'),
     output: {
         filename: 'server_bundle.js',
         path: path.resolve(__dirname, 'build'),

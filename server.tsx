@@ -6,7 +6,7 @@ import {StaticRouter} from "react-router";
 import App from "./src/App";
 
 const app = express();
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 
