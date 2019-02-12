@@ -26,10 +26,10 @@ You may choose wich port you want the server to run on, for this, you can change
 
 ### 2. Build the image
 
-    $ docker build -t ploeger .
+    $ docker build -t image .
 
 ### 3. Run the app in a container
 
-    $ docker run -p 8087/8087 ploeger
+    $ docker run -p 8087/8087 image
 
 You can now go to localhost:8087 and see the app.
